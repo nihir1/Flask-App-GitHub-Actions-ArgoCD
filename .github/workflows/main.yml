@@ -73,3 +73,5 @@ jobs:
           git commit -m "Update deploy.yaml with new image version - ${{ env.VERSION }}"
           git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/nihir1/Flask-App-GitHub-Actions-ArgoCD.git
           git push origin master
+
+    #testing
